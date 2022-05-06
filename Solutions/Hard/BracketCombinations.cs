@@ -16,7 +16,6 @@ internal class BracketCombinations
     string pattern = "";
     public void run()
     {
-
         Console.Write("Please enter a number: ");
         if (Int32.TryParse(Console.ReadLine(), out variable))
         {
@@ -72,5 +71,6 @@ internal class BracketCombinations
             }
         }
     }
+
 }
 

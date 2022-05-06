@@ -1,11 +1,12 @@
-﻿namespace CoderBytePractices
+﻿using CoderBytePractices.Solutions.Easy;
+
+namespace CoderBytePractices
 {
-    internal class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            var obj = new BracketCombinations();
-            obj.run();
+            CodeLandUsernameValidation.Run();
         }
     }
 }
